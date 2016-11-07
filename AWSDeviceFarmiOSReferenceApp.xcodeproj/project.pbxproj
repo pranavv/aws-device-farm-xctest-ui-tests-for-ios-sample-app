@@ -525,9 +525,11 @@
 				TargetAttributes = {
 					5DF508271B1FC87100422C42 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = FLHG4UY3UQ;
 					};
 					7F2D90991D3702FA009415BF = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FLHG4UY3UQ;
 						TestTargetID = 5DF508271B1FC87100422C42;
 					};
 				};
@@ -739,10 +741,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = FLHG4UY3UQ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ADFiOSReferenceApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.AWSDeviceFarmiOSReferenceApp;
 				PRODUCT_NAME = AWSDeviceFarmiOSReferenceApp;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -753,10 +757,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = FLHG4UY3UQ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ADFiOSReferenceApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.AWSDeviceFarmiOSReferenceApp;
 				PRODUCT_NAME = AWSDeviceFarmiOSReferenceApp;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -767,11 +773,12 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FLHG4UY3UQ;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = ADFiOSReferenceAppUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = amazon.aws.device.farm.ADFiOSReferenceAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.ADFiOSReferenceAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = AWSDeviceFarmiOSReferenceApp;
 			};
@@ -781,10 +788,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
+				DEVELOPMENT_TEAM = FLHG4UY3UQ;
 				INFOPLIST_FILE = ADFiOSReferenceAppUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = amazon.aws.device.farm.ADFiOSReferenceAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cts.ADFiOSReferenceAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = AWSDeviceFarmiOSReferenceApp;
 			};
